@@ -1,5 +1,5 @@
 //#include "Animation/Animation.h"
-#include <Events/Events.h>
+//#include <Events/Events.h>
 //#include <Events/EventSinks/CrosshairRefMgr.h>
 //#include "Hooks.h"
 //#include "Input/Input.h"
@@ -14,23 +14,14 @@ namespace
 	{
 		switch (a_msg->type) {
 		case SKSE::MessagingInterface::kDataLoaded:
-#ifndef NDEBUG
-			InputHandler::Register();
-#endif
-
 			//Animation::AnimationManager::Install();
 
-			Events::Register();
+			//Events::Register();
 			//Scaleform::Register();
 
-			Settings::LoadSettings();
+			//Settings::LoadSettings();
 			//LOTD::LoadLists();
 			break;
-		case SKSE::MessagingInterface::kPostPostLoad:
-		{
-			//Completionist_Integration::RegisterListener();
-		}
-		break;
 		}
 	}
 
