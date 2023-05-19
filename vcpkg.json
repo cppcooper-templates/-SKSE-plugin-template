@@ -1,0 +1,19 @@
+{
+  "name": "quicklootee",
+  "version-string": "1",
+  "description": "A quick looting mod for Skyrim: Special Edition akin to Fallout 4.",
+  "homepage": "https://github.com/Eloquence4/QuickLootEE",
+  "license": "MIT",
+  "dependencies": [
+    "boost-stl-interfaces",
+    "frozen",
+    "rsm-binary-io",
+    "fmt",
+    "spdlog",
+    "srell",
+    "articuno",
+    "commonlibsse-ng-flatrim",
+    "xbyak"
+  ],
+  "builtin-baseline": "fc54955667ee1365b00fc491af3bd1dddecb7b9d"
+}
